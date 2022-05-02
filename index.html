@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Let's Go Airlines</title>
+  <link rel="icon" type="image/png" href="./Images/32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <script defer src="indexValidation.js"></script>
+  <script defer type="text/javascript" src="searchFilter.js"></script>
+  <script defer type="text/javascrtpt" src="resultSearch.js"></script>
+  <script src="./index.js"></script>
+
+
+</head>
+
+<body>
+
+  <div class="header" id="myHeader">
+    <img src="./Images/logo.png" width="200" height="150">
+    <p class="title">Let's Go Airlines</p>
+    <ul class="navigation">
+      <li><a href="#Overview">Overview</a></li>
+      <li><a href="#Vision">Vision</a></li>
+      <li><a href="#Values">Values</a></li>
+      <li><a href="#Enquiry">Flight Enquiry</a></li>
+    </ul>
+  </div>
+
+  <div class="overview" id="Overview">
+    <p class="overview_heading">Overview</p>
+    <p class="overview_para">Let's Go Airlines is the project name for a new airline company that will focus on single
+      class long-haul scheduled flights.
+      Let's Go Airlines will capitalise on the widening gap in long-haul travel between business and economy class.
+      Let's Go Airlines will operate Boeing 757-200 aircraft configured with 80 seats which will provide a very spacious
+      and pleasant environment.
+      The aircraft will be equipped with the latest technology in order to enable the business traveller to use his time
+      efficiently while travelling.
+      The company will start by leasing two aircraft and expand its fleet to 6 aircraft by the second year of operation.
+      Let's Go will be a "business to business" airline and will focus exclusively on the premium/business segment of
+      the market.
+      It will offer customers a compelling value proposition: a high level of service and comfort at 50 percent of the
+      current published business-class fare.
+      In addition to an attractive price, Let's Go will offer passengers considerable time savings, convenience, and
+      will focus on creating a lifestyle appeal.</p>
+  </div>
+
+  <div class="vision" id="Vision">
+    <p class="overview_heading">Vision</p>
+    <p class="overview_para">Let's Go aims to establish itself as a niche player in the long-haul market of business
+      travel.
+      By continuously focusing on the needs of the premium class business traveller, Let's Go will provide the best
+      value proposition
+      in the markets it serves.</p>
+  </div>
+
+
+  <div class="values" id="Values">
+    <p class="overview_heading">Values</p>
+    <p class="overview_para">We exist to provide a valuable service to our customers, a rewarding opportunity for our
+      employees,
+      and profitability to our shareholders. We believe that success in this endeavor depends on our employees.
+      Satisfied employees lead to satisfied customers, which lead to satisfied shareholders. To achieve this,
+      we enable our employees to act with an entrepreneurial spirit, and we value those willing to take responsibility
+      for their actions and the consequences of those actions. We treat employees as family, which fosters intimacy,
+      informality, strong relationships, caring attitudes, and it makes work more fun. We want our customers to
+      experience
+      legendary service that makes a lasting impression. Providing exceptional value to customers requires hard work and
+      concentration. We believe in doing things right the first time. We take pride in our efforts as well as the
+      rewards.
+      Throughout this endeavor, safety will be the overriding force behind any decision.</p>
+  </div>
+
+
+  <div class="enquiry" id="Enquiry">
+    <p class="overview_heading">Flight Enquiry</p>
+    <div id="error"></div>
+    <table>
+      <form id="formSearch" method="post" action="http://localhost:3001/tempFlightView">
+        <tr>
+          <td height="28" align="left">Origin :</td>
+          <td height="28">
+            <input class="origin" type="text" id="origin" name="origin" size="25" />
+          </td>
+        </tr>
+        <tr>
+          <td height="28" align="left">Destination :</td>
+          <td height="28"><input class="destination" type="text" name="destination" id="destination" size="25" /></td>
+        </tr>
+        <tr>
+          <td height="28" align="left">Date :</td>
+          <td height="28"><input class="inputformat" type="date" name="date" id="date" size="25" /></td>
+        </tr>
+        <tr>
+          <td height="28" align="left">Number of passengers :</td>
+          <td height="28">
+            <select class="seats" id="seats" name="seats">
+              <option name='1' value="1">1</option>
+              <option name='2' value="2">2</option>
+          </td>
+        </tr>
+        <tr>
+          <td height="35"></td>
+          <td height="35"><input class="formsubmit" type="submit" value="Search" id="formsubmit" /></td>
+        </tr>
+      </form>
+    </table>
+
+
+
+    </frame>
+  </div>
+  <!--<div style="align-content: center;">
+  <h1 style="margin-left: 5%;">Results of flight enquiry</h1>
+        <table border = "5px" style="width: 90%; margin-left: 5%;">
+            <tr>
+                <th><h4 align ="center">Origin</h4></th>
+                <th><h4 align ="center">Destination</h4></th>
+                <th><h4 align ="center">Day</h4></th>
+                <th>
+                    <table border = "1px" style="width: 100%;">
+                        <h4 align ="center">Seats</h4>
+                        <th>Total</th>
+                        <th>Available</th>
+                        <th>Booked</th>
+                    </table>
+                </td>
+                <td><h4 align ="center">Book Ticket</h4></td>
+            </tr>
+            <tr>
+                <td class="resOrigin"></td>
+                <td class="resDestination"></td>
+                <td class="resDay"></td>
+                <td>
+                    <table border = "1px" style="width: 100%;">
+                        
+                        <td id="resTotal"></td>
+                        <td class="resAvailable"></td>
+                        <td class="resBooked"></td>
+                    </table>
+                </td>
+                <td align="center"><input  class="inputformat" type="submit" value="Book" onclick="window.open('booking.html')" /></td>
+            </tr>
+        </table>
+        <script defer src="tempFlightView.js"></script>
+</div>-->
+  <div id="resfeed">
+
+  </div>
+
+</body>
+
+</html>

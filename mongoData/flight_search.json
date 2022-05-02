@@ -1,0 +1,140 @@
+{
+    "airlines": "Lufthansa",
+    "origin": "Bangalore",
+    "destination": "London",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Lufthansa",
+    "origin": "Bangalore",
+    "destination": "Tokyo",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Lufthansa",
+    "origin": "Bangalore",
+    "destination": "Delhi",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Lufthansa",
+    "origin": "Bangalore",
+    "destination": "Mumbai",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Lufthansa",
+    "origin": "Bangalore",
+    "destination": "Goa",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Lufthansa",
+    "origin": "Bangalore",
+    "destination": "Dubai",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Lufthansa",
+    "origin": "Bangalore",
+    "destination": "Singapore",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Emirates",
+    "origin": "Dubai",
+    "destination": "Bangalore",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Emirates",
+    "origin": "Dubai",
+    "destination": "Delhi",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Emirates",
+    "origin": "Dubai",
+    "destination": "London",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Emirates",
+    "origin": "Dubai",
+    "destination": "New York",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Emirates",
+    "origin": "Dubai",
+    "destination": "Washington",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Emirates",
+    "origin": "Dubai",
+    "destination": "Singapore",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}
+{
+    "airlines": "Emirates",
+    "origin": "Dubai",
+    "destination": "Liverpool",
+    "seats":{
+        "total": 100,
+        "available": 100,
+        "booked": 0
+    }
+}

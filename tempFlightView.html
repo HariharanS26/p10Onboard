@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1>Results of flight enquiry</h1>
+        <table border = "5px" style="width: 100%;">
+            <tr>
+                <th><h4 align ="center">Origin</h4></th>
+                <th><h4 align ="center">Destination</h4></th>
+                <th><h4 align ="center">Day</h4></th>
+                <th>
+                    <table border = "1px" style="width: 100%;">
+                        <h4 align ="center">Seats</h4>
+                        <th>Total</th>
+                        <th>Available</th>
+                        <th>Booked</th>
+                    </table>
+                </td>
+                <td><h4 align ="center">Book Ticket</h4></td>
+            </tr>
+            <tr>
+                <td class="resOrigin"></td>
+                <td class="resDestination"></td>
+                <td class="resDay"></td>
+                <td>
+                    <table border = "1px" style="width: 100%;">
+                        
+                        <td class="resTotal"></td>
+                        <td class="resAvailable"></td>
+                        <td class="resBooked"></td>
+                    </table>
+                </td>
+                <td align="center"><input  class="inputformat" type="submit" value="Book" onclick="window.open('booking.html')" /></td>
+            </tr>
+        </table>
+        <script defer src="tempFlightView.js"></script>
+    </body>
+</html>

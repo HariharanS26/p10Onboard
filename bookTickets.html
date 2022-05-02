@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Tickets</title>
+    <script>
+        const flightObject = store('flightObject')
+        const seats = flightObject.resSeats
+        document.getElementById('text').innerHTML = "" + seats + ""
+
+    </script>
+    <script defer src='./bookTicketsValidation.js'></script>
+
+</head>
+
+<body>
+    <div>
+        <p id="text">
+
+        </p>
+
+    </div>
+    <div>
+        <form style=" font-size: 30px ; background-color: rgb(175, 255, 255);" method='post'
+            action='http://localhost:3001/bookTickets'>
+
+            <label>First Name - </label>
+            <br>
+            <input style="width: 50%; font-size: 25px ; margin-left: 20px;" type="text" id="fname" name="fname"
+                class="fname" required>
+            <br>
+            <br>
+            <label>Last Name - </label>
+            <br>
+            <input style="width: 50%; font-size: 25px ; margin-left: 20px;" type="text" id="lname" name="lname"
+                class="lname" required>
+            <br><br>
+            <label>Age - </label>
+            <br>
+            <input style="width: 50%; font-size: 25px ; margin-left: 20px;" type="number" id="Age" name="Age"
+                class="Age" required>
+            <br><br>
+            <label>Gender - </label>
+            <br>
+            <input style="font-size: 25px ; margin-left: 20px;" type="radio" id='Gender' name="Gender" value="Male">Male
+            <input style="font-size: 25px ; margin-left: 20px;" type="radio" id='Gender' name="Gender"
+                value="Female">Female
+            <br>
+            <br>
+            <label>Email - </label>
+            <br>
+            <input style="width: 50%; font-size: 25px ; margin-left: 20px;" type="email" id="Email" name="Email"
+                class="Email" required>
+            <br><br>
+            <label>Phone Number - </label>
+            <br>
+            <input style="width: 50%; font-size: 25px ; margin-left: 20px;" type="number" id="Pnumber" name="Pnumber"
+                class="Pnumber" required>
+            <br>
+            <br>
+            <input style="width: 50%; font-size: 25px ; margin-left: 20px;" type="submit" id="formSubmit"
+                onclick='htmlStore()'>
+            <br>
+            <br>
+            <br>
+        </form>
+    </div>
+
+</body>
+
+</html>
